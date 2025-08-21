@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidBios2.Console", "SolidBios2.Console\SolidBios2.Console.csproj", "{B730D02F-BB06-412F-BDE2-D918B3F140D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidBios2.Ui", "SolidBios2.Ui\SolidBios2.Ui.csproj", "{B77A0F2F-439D-4EC9-9444-4A04702EA5B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{B730D02F-BB06-412F-BDE2-D918B3F140D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B730D02F-BB06-412F-BDE2-D918B3F140D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B730D02F-BB06-412F-BDE2-D918B3F140D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B77A0F2F-439D-4EC9-9444-4A04702EA5B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77A0F2F-439D-4EC9-9444-4A04702EA5B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B77A0F2F-439D-4EC9-9444-4A04702EA5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77A0F2F-439D-4EC9-9444-4A04702EA5B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
