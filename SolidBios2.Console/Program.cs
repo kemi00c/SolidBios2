@@ -36,7 +36,7 @@ class Program
         }
 
 
-        var screen = new InfoScreen();
+        var screen = new ConfigScreen();
         try
         {
             screen.Run();

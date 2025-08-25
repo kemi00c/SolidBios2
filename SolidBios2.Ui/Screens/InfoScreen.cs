@@ -41,7 +41,7 @@ public class InfoScreen : BaseScreen
         Console.ForegroundColor = ConsoleColor.Black;
         
         Console.Write(Box.TlCorner);
-        Console.Write(new string(Box.Horizontal[0], Console.WindowWidth - 2));
+        Console.Write(new string(Box.Horizontal, Console.WindowWidth - 2));
         Console.Write(Box.TrCorner);
 
         for (var i = 0; i < Console.WindowHeight - 6; i++)
@@ -52,7 +52,7 @@ public class InfoScreen : BaseScreen
         }
         
         Console.Write(Box.BlCorner);
-        Console.Write(new string(Box.Horizontal[0], Console.WindowWidth - 2));
+        Console.Write(new string(Box.Horizontal, Console.WindowWidth - 2));
         Console.Write(Box.BrCorner);
 
         if (Widgets != null)
