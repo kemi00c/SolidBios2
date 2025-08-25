@@ -1,4 +1,4 @@
-namespace SolidBios2.Ui;
+namespace SolidBios2.Ui.Screens;
 
 public interface IScreen
 {
