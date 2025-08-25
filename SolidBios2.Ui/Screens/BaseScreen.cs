@@ -1,9 +1,13 @@
-namespace SolidBios2.Ui;
+using SolidBios2.Ui.Widgets;
+
+namespace SolidBios2.Ui.Screens;
 
 public class BaseScreen : IScreen
 {
     private const string Title = "Aptio Setup Utility";
     private const string Tabs = "  Info    Config    Security    Boot    Exit";
+    
+    protected List<IWidget>? Widgets;
 
     protected virtual void Draw()
     {
